@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,7 +7,6 @@
     <link href="{{ asset('/css/app.css') }}" rel="stylesheet" />
     <title>@yield('title', 'Online Store')</title>
 </head>
-
 <body>
     <!-- header -->
     <header class="masthead bg-primary text-white text-center py-4">
@@ -27,6 +25,8 @@
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" href="{{ route('home.index') }}">Home</a>
                     <a class="nav-link active" href="{{ route('home.about') }}">About</a>
+                    <a class="nav-link active" href="{{ route('product.index') }}">Products</a>
+                    <a class="nav-link active" href="{{ route('product.create') }}">Create</a>
                 </div>
             </div>
         </div>
