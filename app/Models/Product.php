@@ -55,3 +55,4 @@ class Product extends Model
       $this->comments = $comments;
    }
 }
+ 
